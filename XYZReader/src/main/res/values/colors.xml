@@ -25,4 +25,9 @@
 
     <color name="article_title_text_color">@android:color/black</color>
     <color name="article_subtitle_text_color">@color/ltgray</color>
+
+    <color name="article_detail_by_color">#8fff</color>
+    <color name="article_detail_title_text_color">#fff</color>
+    <color name="article_detail_body_text_color">#ff606060</color>
+
 </resources>
