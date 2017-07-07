@@ -136,7 +136,7 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-        mPhotoView.setTransitionName(getString(R.string.transition_photo));
+        mPhotoView.setTransitionName(getString(R.string.transition_photo) + String.valueOf(mItemId).trim());
         mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
