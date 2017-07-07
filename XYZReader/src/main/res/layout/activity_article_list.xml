@@ -11,33 +11,27 @@
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:clipToPadding="false"
-            android:paddingBottom="28dp"
-            android:paddingLeft="@dimen/list_side_margin"
-            android:paddingRight="@dimen/list_side_margin"
-            android:paddingTop="116dp"
-            android:scrollbarStyle="outsideOverlay" />
+            style="@style/RecyclerViewStyle" />
+
     </android.support.v4.widget.SwipeRefreshLayout>
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
+        android:layout_height="@dimen/appbar_height"
         android:background="@color/theme_primary"
-        android:elevation="8dp">
+        android:elevation="@dimen/appbar_elevation">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="112dp"
-            app:expandedTitleMarginStart="72dp"
+            android:layout_height="@dimen/collapsing_toolbar_height"
+            app:expandedTitleMarginStart="@dimen/collapsing_toolbar_expanded_title_margin_start"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
+                android:layout_height="@dimen/toolbar_height"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/list_toolbar_side_margin"
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
