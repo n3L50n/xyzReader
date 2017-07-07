@@ -30,4 +30,7 @@
     <color name="article_detail_title_text_color">#fff</color>
     <color name="article_detail_body_text_color">#ff606060</color>
 
+    <color name="grid_article_title_text_color">@android:color/black</color>
+    <color name="grid_article_subtitle_text_color">#6000</color>
+
 </resources>

@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="4dp"
+    android:layout_margin="@dimen/card_view_margin"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground">
@@ -15,34 +15,16 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:transitionName="@string/transition_photo"
-            android:scaleType="centerCrop"
-            android:background="@color/photo_placeholder" />
+            style="@style/GridImageStyle" />
 
         <TextView
             android:id="@+id/article_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="4dp"
-            android:textColor="@android:color/black"
-            android:ellipsize="end"
-            android:maxLines="4" />
+            style="@style/GridTitleStyle" />
 
         <TextView
             android:id="@+id/article_subtitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="16dp"
-            android:textColor="#6000"
-            android:maxLines="2"
-            android:ellipsize="end" />
+            style="@style/GridSubtitleStyle" />
+
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

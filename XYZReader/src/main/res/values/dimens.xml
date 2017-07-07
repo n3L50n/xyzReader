@@ -1,4 +1,5 @@
 <resources>
+
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
@@ -9,5 +10,18 @@
     <dimen name="fab_margin">24dp</dimen>
 
     <dimen name="photo_background_view_height">112dp</dimen>
+
+    <!--grid-->
+    <dimen name="grid_article_title_padding_top">16dp</dimen>
+    <dimen name="grid_article_title_padding_bottom">4dp</dimen>
+    <dimen name="grid_article_title_padding_left">16dp</dimen>
+    <dimen name="grid_article_title_padding_right">16dp</dimen>
+    <dimen name="grid_article_title_text_size">17sp</dimen>
+
+    <dimen name="grid_article_subtitle_padding_right">16dp</dimen>
+    <dimen name="grid_article_subtitle_padding_bottom">16dp</dimen>
+    <dimen name="grid_article_subtitle_padding_left">16dp</dimen>
+
+    <dimen name="card_view_margin">4dp</dimen>
 
 </resources>

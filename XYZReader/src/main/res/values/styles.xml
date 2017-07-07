@@ -11,6 +11,39 @@
         <item name="android:windowSharedElementExitTransition">@transition/change_image_transform</item>
     </style>
 
+    <!--Article Master Grid Styles-->
+    <style name="GridImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:transitionName">@string/transition_photo</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@color/photo_placeholder</item>
+    </style>
+
+    <style name="GridTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/grid_article_title_padding_left</item>
+        <item name="android:paddingRight">@dimen/grid_article_title_padding_right</item>
+        <item name="android:paddingBottom">@dimen/grid_article_title_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/grid_article_title_padding_top</item>
+        <item name="android:textSize">@dimen/grid_article_title_text_size</item>
+        <item name="android:textColor">@color/grid_article_title_text_color</item>
+        <item name="android:maxLines">@integer/grid_article_title_max_lines</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="GridSubtitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/grid_article_subtitle_padding_left</item>
+        <item name="android:paddingRight">@dimen/grid_article_subtitle_padding_right</item>
+        <item name="android:paddingBottom">@dimen/grid_article_subtitle_padding_bottom</item>
+        <item name="android:textColor">@color/grid_article_subtitle_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/grid_article_subtitle_max_lines</item>
+    </style>
+
     <!--Article Detail Styles-->
     <style name="FABStyle">
         <item name="android:stateListAnimator">@anim/fab_state_list_anim</item>
