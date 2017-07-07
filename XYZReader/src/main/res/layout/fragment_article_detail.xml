@@ -68,7 +68,6 @@
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         style="@style/FABStyle"
-        android:contentDescription="@string/action_share"
-        app:pressedTranslationZ="@dimen/fab_press_translation_z" />
+        android:contentDescription="@string/action_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
